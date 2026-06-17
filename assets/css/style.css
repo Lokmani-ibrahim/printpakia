@@ -1244,15 +1244,15 @@ search popup
 
 
 /* ===================
-hero css 
+Ibrahim-lokmani css 
 ====================== */
 
-.hero-section {
+.Ibrahim-lokmani-section {
   position: relative;
   overflow: hidden;
 }
 
-.hero-single {
+.Ibrahim-lokmani-single {
   background: #072e49;
   padding-top: 120px;
   padding-bottom: 120px;
@@ -1267,7 +1267,7 @@ hero css
   z-index: 1;
 }
 
-.hero-single::before {
+.Ibrahim-lokmani-single::before {
   content: "";
   position: absolute;
   width: 50%;
@@ -1279,14 +1279,14 @@ hero css
   z-index: -1;
 }
 
-.hero-single .hero-content {
+.Ibrahim-lokmani-single .Ibrahim-lokmani-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100%;
 }
 
-.hero-single .hero-content .hero-title {
+.Ibrahim-lokmani-single .Ibrahim-lokmani-content .Ibrahim-lokmani-title {
   color: #fff;
   font-size: 65px;
   font-weight: 600;
@@ -1294,7 +1294,7 @@ hero css
   text-transform: capitalize;
 }
 
-.hero-single .hero-content .hero-sub-title {
+.Ibrahim-lokmani-single .Ibrahim-lokmani-content .Ibrahim-lokmani-sub-title {
   color: #41f9eb;
   font-size: 35px;
   position: relative;
@@ -1302,30 +1302,30 @@ hero css
   font-family: 'Sofia', cursive;
 }
 
-.hero-single .hero-content p {
+.Ibrahim-lokmani-single .Ibrahim-lokmani-content p {
   color: #fff;
   line-height: 30px;
   font-weight: 400;
   margin-bottom: 20px;
 }
 
-.hero-single .hero-img{
+.Ibrahim-lokmani-single .Ibrahim-lokmani-img{
   padding-left: 20px;
 }
 
-.hero-single .hero-content .hero-btn {
+.Ibrahim-lokmani-single .Ibrahim-lokmani-content .Ibrahim-lokmani-btn {
   gap: 2rem;
   display: flex;
   margin-top: 1rem;
   justify-content: start;
 }
 
-.hero-single .hero-content .theme-btn:hover{
+.Ibrahim-lokmani-single .Ibrahim-lokmani-content .theme-btn:hover{
   background: #fff;
   color: #091F3C;
 }
 
-.hero-section .owl-dots {
+.Ibrahim-lokmani-section .owl-dots {
   position: absolute;
   text-align: center;
   top: 50%;
@@ -1333,11 +1333,11 @@ hero css
   transform: translateY(-50%);
 }
 
-.hero-section .owl-dots .owl-dot {
+.Ibrahim-lokmani-section .owl-dots .owl-dot {
   display: block;
 }
 
-.hero-section .owl-dots .owl-dot span {
+.Ibrahim-lokmani-section .owl-dots .owl-dot span {
   border: 3px solid #fff;
   margin: 5px;
   border-radius: 50px;
@@ -1348,18 +1348,18 @@ hero css
   transition: all .5s ease-in-out;
 }
 
-.hero-section .owl-dots .owl-dot.active span {
+.Ibrahim-lokmani-section .owl-dots .owl-dot.active span {
   background-color: #41f9eb;
 }
 
 
-/* hero-slider2 */
+/* Ibrahim-lokmani-slider2 */
 
-.hero-slider2.owl-theme .owl-nav {
+.Ibrahim-lokmani-slider2.owl-theme .owl-nav {
   margin-top: 0px;
 }
 
-.hero-slider2.owl-theme .owl-nav [class*=owl-] {
+.Ibrahim-lokmani-slider2.owl-theme .owl-nav [class*=owl-] {
   color: #fff;
   font-size: 30px;
   margin: 0;
@@ -1375,21 +1375,21 @@ hero css
   transition: all .5s ease-in-out;
 }
 
-.hero-slider2.owl-theme .owl-nav [class*=owl-]:hover {
+.Ibrahim-lokmani-slider2.owl-theme .owl-nav [class*=owl-]:hover {
   background: #fff;
   color: #D81324;
 }
 
-.hero-slider2.owl-theme .owl-nav .owl-prev {
+.Ibrahim-lokmani-slider2.owl-theme .owl-nav .owl-prev {
   left: 40px;
 }
 
-.hero-slider2.owl-theme .owl-nav .owl-next {
+.Ibrahim-lokmani-slider2.owl-theme .owl-nav .owl-next {
   right: 40px;
 }
 
-.hero-slider2.owl-theme .owl-nav .owl-prev,
-.hero-slider2.owl-theme .owl-nav .owl-next {
+.Ibrahim-lokmani-slider2.owl-theme .owl-nav .owl-prev,
+.Ibrahim-lokmani-slider2.owl-theme .owl-nav .owl-next {
   position: absolute;
   top: 50%;
   transform: translate(0, -50%);
@@ -1397,22 +1397,22 @@ hero css
 
 @media all and (max-width: 1199px) {
 
-  .hero-single .hero-content .hero-title {
+  .Ibrahim-lokmani-single .Ibrahim-lokmani-content .Ibrahim-lokmani-title {
     font-size: 37px;
   }
 
-  .hero-slider2.owl-theme .owl-nav .owl-prev,
-  .hero-slider2.owl-theme .owl-nav .owl-next {
+  .Ibrahim-lokmani-slider2.owl-theme .owl-nav .owl-prev,
+  .Ibrahim-lokmani-slider2.owl-theme .owl-nav .owl-next {
     top: unset;
     bottom: 5px !important;
   }
 
-  .hero-slider2.owl-theme .owl-nav .owl-prev{
+  .Ibrahim-lokmani-slider2.owl-theme .owl-nav .owl-prev{
     left: unset;
     right: 120px;
   }
 
-  .hero-slider2.owl-theme .owl-nav .owl-next {
+  .Ibrahim-lokmani-slider2.owl-theme .owl-nav .owl-next {
     right: 40px;
   }
 
@@ -1420,17 +1420,17 @@ hero css
 
 @media all and (max-width: 991px) {
 
-  .hero-single .hero-content .hero-title {
+  .Ibrahim-lokmani-single .Ibrahim-lokmani-content .Ibrahim-lokmani-title {
     font-size: 35px;
   }
 
-  .hero-section .owl-dots {
+  .Ibrahim-lokmani-section .owl-dots {
     top: unset;
     right: 20px;
     bottom: 20px;
   }
 
-  .hero-section .owl-dots .owl-dot {
+  .Ibrahim-lokmani-section .owl-dots .owl-dot {
     display: inline-block;
   }
 
@@ -1438,15 +1438,15 @@ hero css
 
 @media all and (max-width: 767px) {
 
-  .hero-single .hero-content .hero-sub-title {
+  .Ibrahim-lokmani-single .Ibrahim-lokmani-content .Ibrahim-lokmani-sub-title {
     font-size: 18px;
   }
 
-  .hero-single .hero-content .hero-btn {
+  .Ibrahim-lokmani-single .Ibrahim-lokmani-content .Ibrahim-lokmani-btn {
     gap: 2rem;
   }
 
-  .hero-img {
+  .Ibrahim-lokmani-img {
     display: none;
   }
 }
@@ -4212,7 +4212,7 @@ footer css
 home 2
 ======================== */
 
-.home-2 .hero-single::before{
+.home-2 .Ibrahim-lokmani-single::before{
   background: rgba(0, 0, 0, .7);
   width: 100%;
   clip-path: none;
@@ -4229,11 +4229,11 @@ home 3
   background: #072e49;
 }
 
-.home-3 .hero-single{
+.home-3 .Ibrahim-lokmani-single{
   background: #072e49;
 }
 
-.home-3 .hero-img{
+.home-3 .Ibrahim-lokmani-img{
   padding-left: 80px;
 }
 

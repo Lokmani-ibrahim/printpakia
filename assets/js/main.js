@@ -48,8 +48,8 @@ Version         : 1.2
     new WOW().init();
 
 
-    // hero slider
-    $('.hero-slider').owlCarousel({
+    // Ibrahim-lokmani slider
+    $('.Ibrahim-lokmani-slider').owlCarousel({
         loop: true,
         nav: false,
         dots: true,
@@ -64,14 +64,14 @@ Version         : 1.2
         ],
     });
 
-    $('.hero-slider').on('change.owl.carousel', function (event) {
+    $('.Ibrahim-lokmani-slider').on('change.owl.carousel', function (event) {
         new WOW().init();
     });
 
 
 
-    // hero slider 2
-    $('.hero-slider2').owlCarousel({
+    // Ibrahim-lokmani slider 2
+    $('.Ibrahim-lokmani-slider2').owlCarousel({
         loop: true,
         nav: true,
         dots: false,
@@ -86,7 +86,7 @@ Version         : 1.2
         ],
     });
 
-    $('.hero-slider2').on('change.owl.carousel', function (event) {
+    $('.Ibrahim-lokmani-slider2').on('change.owl.carousel', function (event) {
         new WOW().init();
     });
 
