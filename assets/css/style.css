@@ -1,5 +1,5 @@
 /* =====================================================
-Nom du modèle   : Printex
+Nom du modèle   : PrintPakia
 Description     : Lokmani Ibrahim
 Author          : Lokmani Ibrahim
 Version         : 1.2
@@ -15,6 +15,9 @@ fonts
 /* ===================
 general css
 ====================== */
+.preloader{
+    display:none !important;
+}
 
 *,
 *:before,
